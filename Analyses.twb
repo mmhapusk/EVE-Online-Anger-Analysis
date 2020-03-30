@@ -1,0 +1,1908 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.17.1226.1925                               -->
+<workbook original-version='10.5' source-build='10.5.0 (10500.17.1226.1925)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='csm subforums all posts cleaned (1)' inline='true' name='federated.10xrk031hb1yg111jq8760r18tz9' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='csm subforums all posts cleaned (1)' name='textscan.0ipkx0z0w6ffax1doekka02rj5z2'>
+            <connection class='textscan' directory='C:/Users/mohit/Downloads/MIS-699' filename='csm subforums all posts cleaned (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0ipkx0z0w6ffax1doekka02rj5z2' name='csm subforums all posts cleaned (1).csv' table='[csm subforums all posts cleaned (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='string' name='Subforum' ordinal='2' />
+            <column datatype='integer' name='subsectionpage' ordinal='3' />
+            <column datatype='integer' name='all_thread_ids' ordinal='4' />
+            <column datatype='string' name='Thread_Title' ordinal='5' />
+            <column datatype='integer' name='Thread_Page' ordinal='6' />
+            <column datatype='date' name='Date_of_post' ordinal='7' />
+            <column datatype='string' name='Username' ordinal='8' />
+            <column datatype='string' name='Post' ordinal='9' />
+            <column datatype='integer' name='WC' ordinal='10' />
+            <column datatype='string' name='Analytic' ordinal='11' />
+            <column datatype='string' name='Clout' ordinal='12' />
+            <column datatype='string' name='Authentic' ordinal='13' />
+            <column datatype='string' name='Tone' ordinal='14' />
+            <column datatype='string' name='WPS' ordinal='15' />
+            <column datatype='string' name='Sixltr' ordinal='16' />
+            <column datatype='string' name='Dic' ordinal='17' />
+            <column datatype='string' name='function' ordinal='18' />
+            <column datatype='string' name='pronoun' ordinal='19' />
+            <column datatype='string' name='ppron' ordinal='20' />
+            <column datatype='string' name='i' ordinal='21' />
+            <column datatype='string' name='we' ordinal='22' />
+            <column datatype='string' name='you' ordinal='23' />
+            <column datatype='string' name='shehe' ordinal='24' />
+            <column datatype='string' name='they' ordinal='25' />
+            <column datatype='string' name='ipron' ordinal='26' />
+            <column datatype='string' name='article' ordinal='27' />
+            <column datatype='string' name='prep' ordinal='28' />
+            <column datatype='string' name='auxverb' ordinal='29' />
+            <column datatype='string' name='adverb' ordinal='30' />
+            <column datatype='string' name='conj' ordinal='31' />
+            <column datatype='string' name='negate' ordinal='32' />
+            <column datatype='string' name='verb' ordinal='33' />
+            <column datatype='string' name='adj' ordinal='34' />
+            <column datatype='string' name='compare' ordinal='35' />
+            <column datatype='string' name='interrog' ordinal='36' />
+            <column datatype='string' name='number' ordinal='37' />
+            <column datatype='string' name='quant' ordinal='38' />
+            <column datatype='string' name='affect' ordinal='39' />
+            <column datatype='string' name='posemo' ordinal='40' />
+            <column datatype='string' name='negemo' ordinal='41' />
+            <column datatype='string' name='anx' ordinal='42' />
+            <column datatype='string' name='anger' ordinal='43' />
+            <column datatype='string' name='sad' ordinal='44' />
+            <column datatype='string' name='social' ordinal='45' />
+            <column datatype='string' name='family' ordinal='46' />
+            <column datatype='string' name='friend' ordinal='47' />
+            <column datatype='string' name='female' ordinal='48' />
+            <column datatype='string' name='male' ordinal='49' />
+            <column datatype='string' name='cogproc' ordinal='50' />
+            <column datatype='string' name='insight' ordinal='51' />
+            <column datatype='string' name='cause' ordinal='52' />
+            <column datatype='string' name='discrep' ordinal='53' />
+            <column datatype='string' name='tentat' ordinal='54' />
+            <column datatype='string' name='certain' ordinal='55' />
+            <column datatype='string' name='differ' ordinal='56' />
+            <column datatype='string' name='percept' ordinal='57' />
+            <column datatype='string' name='see' ordinal='58' />
+            <column datatype='string' name='hear' ordinal='59' />
+            <column datatype='string' name='feel' ordinal='60' />
+            <column datatype='string' name='bio' ordinal='61' />
+            <column datatype='string' name='body' ordinal='62' />
+            <column datatype='string' name='health' ordinal='63' />
+            <column datatype='string' name='sexual' ordinal='64' />
+            <column datatype='string' name='ingest' ordinal='65' />
+            <column datatype='string' name='drives' ordinal='66' />
+            <column datatype='string' name='affiliation' ordinal='67' />
+            <column datatype='string' name='achieve' ordinal='68' />
+            <column datatype='string' name='power' ordinal='69' />
+            <column datatype='string' name='reward' ordinal='70' />
+            <column datatype='string' name='risk' ordinal='71' />
+            <column datatype='string' name='focuspast' ordinal='72' />
+            <column datatype='string' name='focuspresent' ordinal='73' />
+            <column datatype='string' name='focusfuture' ordinal='74' />
+            <column datatype='string' name='relativ' ordinal='75' />
+            <column datatype='string' name='motion' ordinal='76' />
+            <column datatype='string' name='space' ordinal='77' />
+            <column datatype='string' name='time' ordinal='78' />
+            <column datatype='string' name='work' ordinal='79' />
+            <column datatype='string' name='leisure' ordinal='80' />
+            <column datatype='string' name='home' ordinal='81' />
+            <column datatype='string' name='money' ordinal='82' />
+            <column datatype='string' name='relig' ordinal='83' />
+            <column datatype='string' name='death' ordinal='84' />
+            <column datatype='string' name='informal' ordinal='85' />
+            <column datatype='string' name='swear' ordinal='86' />
+            <column datatype='string' name='netspeak' ordinal='87' />
+            <column datatype='string' name='assent' ordinal='88' />
+            <column datatype='string' name='nonflu' ordinal='89' />
+            <column datatype='string' name='filler' ordinal='90' />
+            <column datatype='string' name='AllPunc' ordinal='91' />
+            <column datatype='string' name='Period' ordinal='92' />
+            <column datatype='string' name='Comma' ordinal='93' />
+            <column datatype='string' name='Colon' ordinal='94' />
+            <column datatype='string' name='SemiC' ordinal='95' />
+            <column datatype='string' name='QMark' ordinal='96' />
+            <column datatype='string' name='Exclam' ordinal='97' />
+            <column datatype='string' name='Dash' ordinal='98' />
+            <column datatype='string' name='Quote' ordinal='99' />
+            <column datatype='string' name='Apostro' ordinal='100' />
+            <column datatype='string' name='Parenth' ordinal='101' />
+            <column datatype='string' name='OtherP' ordinal='102' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subforum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subforum]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Subforum</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subsectionpage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[subsectionpage]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>subsectionpage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>all_thread_ids</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[all_thread_ids]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>all_thread_ids</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thread_Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Thread_Title]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Thread_Title</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thread_Page</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thread_Page]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Thread_Page</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date_of_post</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date_of_post]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Date_of_post</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Username</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Username]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Username</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Post</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Post]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Post</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WC]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>WC</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Analytic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Analytic]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Analytic</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clout</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Clout]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Clout</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Authentic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Authentic]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Authentic</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tone]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Tone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WPS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WPS]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>WPS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sixltr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sixltr]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Sixltr</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dic]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Dic</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>function</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[function]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>function</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pronoun</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pronoun]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>pronoun</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ppron</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ppron]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>ppron</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>i</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[i]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>i</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>we</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[we]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>we</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>you</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[you]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>you</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shehe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shehe]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>shehe</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>they</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[they]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>they</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ipron</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ipron]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>ipron</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>article</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[article]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>article</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prep]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>prep</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auxverb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[auxverb]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>auxverb</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adverb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[adverb]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>adverb</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conj</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conj]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>conj</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[negate]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>negate</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[verb]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>verb</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adj</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[adj]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>adj</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compare</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[compare]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>compare</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interrog</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[interrog]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>interrog</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[number]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>number</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[quant]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>quant</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>affect</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[affect]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>affect</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>posemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[posemo]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>posemo</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[negemo]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>negemo</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anx</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[anx]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>anx</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anger</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[anger]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>anger</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sad</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sad]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>sad</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>social</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[social]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>social</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>family</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[family]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>family</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>friend</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[friend]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>friend</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>female</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[female]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>female</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>male</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[male]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>male</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cogproc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cogproc]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>cogproc</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insight</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[insight]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>insight</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cause</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cause]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>cause</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>discrep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[discrep]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>discrep</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tentat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tentat]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>tentat</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>certain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[certain]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>certain</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>differ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[differ]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>differ</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percept</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[percept]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>percept</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>see</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[see]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>see</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hear]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>hear</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>feel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[feel]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>feel</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bio]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>bio</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>body</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[body]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>body</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[health]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>health</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sexual</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sexual]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>sexual</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ingest</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ingest]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>ingest</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drives</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drives]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>drives</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>affiliation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[affiliation]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>affiliation</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>achieve</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[achieve]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>achieve</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[power]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>power</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reward</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reward]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>reward</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>risk</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[risk]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>risk</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>focuspast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[focuspast]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>focuspast</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>focuspresent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[focuspresent]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>focuspresent</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>focusfuture</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[focusfuture]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>focusfuture</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relativ</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[relativ]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>relativ</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>motion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[motion]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>motion</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>space</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[space]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>space</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[work]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>work</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leisure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[leisure]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>leisure</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[home]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>home</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>money</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[money]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>money</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relig</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[relig]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>relig</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>death</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[death]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>death</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>informal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[informal]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>informal</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>swear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[swear]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>swear</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>netspeak</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[netspeak]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>netspeak</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[assent]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>assent</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nonflu</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nonflu]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>nonflu</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>filler</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[filler]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>filler</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AllPunc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AllPunc]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>AllPunc</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Period]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Period</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comma</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Comma]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Comma</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Colon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Colon]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Colon</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SemiC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SemiC]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>SemiC</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QMark</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QMark]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>QMark</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exclam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Exclam]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Exclam</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dash</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dash]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Dash</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Quote]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Quote</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apostro</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Apostro]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Apostro</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parenth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Parenth]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>Parenth</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OtherP]</local-name>
+            <parent-name>[csm subforums all posts cleaned (1).csv]</parent-name>
+            <remote-alias>OtherP</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='All Punc' datatype='string' name='[AllPunc]' role='dimension' type='nominal' />
+      <column caption='Date of post' datatype='date' name='[Date_of_post]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Other P' datatype='string' name='[OtherP]' role='dimension' type='nominal' />
+      <column caption='Q Mark' datatype='string' name='[QMark]' role='dimension' type='nominal' />
+      <column caption='Semi C' datatype='string' name='[SemiC]' role='dimension' type='nominal' />
+      <column caption='Thread Page' datatype='integer' name='[Thread_Page]' role='measure' type='quantitative' />
+      <column caption='Thread Title' datatype='string' name='[Thread_Title]' role='dimension' type='nominal' />
+      <column caption='Achieve' datatype='string' name='[achieve]' role='dimension' type='nominal' />
+      <column caption='Adj' datatype='string' name='[adj]' role='dimension' type='nominal' />
+      <column caption='Adverb' datatype='string' name='[adverb]' role='dimension' type='nominal' />
+      <column caption='Affect' datatype='string' name='[affect]' role='dimension' type='nominal' />
+      <column caption='Affiliation' datatype='string' name='[affiliation]' role='dimension' type='nominal' />
+      <column caption='All Thread Ids' datatype='integer' name='[all_thread_ids]' role='measure' type='quantitative' />
+      <column caption='Anger' datatype='string' name='[anger]' role='dimension' type='nominal' />
+      <column caption='Anx' datatype='string' name='[anx]' role='dimension' type='nominal' />
+      <column caption='Article' datatype='string' name='[article]' role='dimension' type='nominal' />
+      <column caption='Assent' datatype='string' name='[assent]' role='dimension' type='nominal' />
+      <column caption='Auxverb' datatype='string' name='[auxverb]' role='dimension' type='nominal' />
+      <column caption='Bio' datatype='string' name='[bio]' role='dimension' type='nominal' />
+      <column caption='Body' datatype='string' name='[body]' role='dimension' type='nominal' />
+      <column caption='Cause' datatype='string' name='[cause]' role='dimension' type='nominal' />
+      <column caption='Certain' datatype='string' name='[certain]' role='dimension' type='nominal' />
+      <column caption='Cogproc' datatype='string' name='[cogproc]' role='dimension' type='nominal' />
+      <column caption='Compare' datatype='string' name='[compare]' role='dimension' type='nominal' />
+      <column caption='Conj' datatype='string' name='[conj]' role='dimension' type='nominal' />
+      <column caption='Death' datatype='string' name='[death]' role='dimension' type='nominal' />
+      <column caption='Differ' datatype='string' name='[differ]' role='dimension' type='nominal' />
+      <column caption='Discrep' datatype='string' name='[discrep]' role='dimension' type='nominal' />
+      <column caption='Drives' datatype='string' name='[drives]' role='dimension' type='nominal' />
+      <column caption='Family' datatype='string' name='[family]' role='dimension' type='nominal' />
+      <column caption='Feel' datatype='string' name='[feel]' role='dimension' type='nominal' />
+      <column caption='Female' datatype='string' name='[female]' role='dimension' type='nominal' />
+      <column caption='Filler' datatype='string' name='[filler]' role='dimension' type='nominal' />
+      <column caption='Focusfuture' datatype='string' name='[focusfuture]' role='dimension' type='nominal' />
+      <column caption='Focuspast' datatype='string' name='[focuspast]' role='dimension' type='nominal' />
+      <column caption='Focuspresent' datatype='string' name='[focuspresent]' role='dimension' type='nominal' />
+      <column caption='Friend' datatype='string' name='[friend]' role='dimension' type='nominal' />
+      <column caption='Function' datatype='string' name='[function]' role='dimension' type='nominal' />
+      <column caption='Health' datatype='string' name='[health]' role='dimension' type='nominal' />
+      <column caption='Hear' datatype='string' name='[hear]' role='dimension' type='nominal' />
+      <column caption='Home' datatype='string' name='[home]' role='dimension' type='nominal' />
+      <column caption='I' datatype='string' name='[i]' role='dimension' type='nominal' />
+      <column caption='Informal' datatype='string' name='[informal]' role='dimension' type='nominal' />
+      <column caption='Ingest' datatype='string' name='[ingest]' role='dimension' type='nominal' />
+      <column caption='Insight' datatype='string' name='[insight]' role='dimension' type='nominal' />
+      <column caption='Interrog' datatype='string' name='[interrog]' role='dimension' type='nominal' />
+      <column caption='Ipron' datatype='string' name='[ipron]' role='dimension' type='nominal' />
+      <column caption='Leisure' datatype='string' name='[leisure]' role='dimension' type='nominal' />
+      <column caption='Male' datatype='string' name='[male]' role='dimension' type='nominal' />
+      <column caption='Money' datatype='string' name='[money]' role='dimension' type='nominal' />
+      <column caption='Motion' datatype='string' name='[motion]' role='dimension' type='nominal' />
+      <column caption='Negate' datatype='string' name='[negate]' role='dimension' type='nominal' />
+      <column caption='Negemo' datatype='string' name='[negemo]' role='dimension' type='nominal' />
+      <column caption='Netspeak' datatype='string' name='[netspeak]' role='dimension' type='nominal' />
+      <column caption='Nonflu' datatype='string' name='[nonflu]' role='dimension' type='nominal' />
+      <column caption='Number' datatype='string' name='[number]' role='dimension' type='nominal' />
+      <column caption='Percept' datatype='string' name='[percept]' role='dimension' type='nominal' />
+      <column caption='Posemo' datatype='string' name='[posemo]' role='dimension' type='nominal' />
+      <column caption='Power' datatype='string' name='[power]' role='dimension' type='nominal' />
+      <column caption='Ppron' datatype='string' name='[ppron]' role='dimension' type='nominal' />
+      <column caption='Prep' datatype='string' name='[prep]' role='dimension' type='nominal' />
+      <column caption='Pronoun' datatype='string' name='[pronoun]' role='dimension' type='nominal' />
+      <column caption='Quant' datatype='string' name='[quant]' role='dimension' type='nominal' />
+      <column caption='Relativ' datatype='string' name='[relativ]' role='dimension' type='nominal' />
+      <column caption='Relig' datatype='string' name='[relig]' role='dimension' type='nominal' />
+      <column caption='Reward' datatype='string' name='[reward]' role='dimension' type='nominal' />
+      <column caption='Risk' datatype='string' name='[risk]' role='dimension' type='nominal' />
+      <column caption='Sad' datatype='string' name='[sad]' role='dimension' type='nominal' />
+      <column caption='See' datatype='string' name='[see]' role='dimension' type='nominal' />
+      <column caption='Sexual' datatype='string' name='[sexual]' role='dimension' type='nominal' />
+      <column caption='Shehe' datatype='string' name='[shehe]' role='dimension' type='nominal' />
+      <column caption='Social' datatype='string' name='[social]' role='dimension' type='nominal' />
+      <column caption='Space' datatype='string' name='[space]' role='dimension' type='nominal' />
+      <column caption='Subsectionpage' datatype='integer' name='[subsectionpage]' role='measure' type='quantitative' />
+      <column caption='Swear' datatype='string' name='[swear]' role='dimension' type='nominal' />
+      <column caption='Tentat' datatype='string' name='[tentat]' role='dimension' type='nominal' />
+      <column caption='They' datatype='string' name='[they]' role='dimension' type='nominal' />
+      <column caption='Time' datatype='string' name='[time]' role='dimension' type='nominal' />
+      <column caption='Verb' datatype='string' name='[verb]' role='dimension' type='nominal' />
+      <column caption='We' datatype='string' name='[we]' role='dimension' type='nominal' />
+      <column caption='Work' datatype='string' name='[work]' role='dimension' type='nominal' />
+      <column caption='You' datatype='string' name='[you]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.75' measure-ordering='alphabetic' measure-percentage='0.25' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='csm subforums all posts cleaned (1)' name='federated.10xrk031hb1yg111jq8760r18tz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xrk031hb1yg111jq8760r18tz9'>
+            <column caption='Date of post' datatype='date' name='[Date_of_post]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[WC]' role='measure' type='quantitative' />
+            <column caption='Anger' datatype='string' name='[anger]' role='dimension' type='nominal' />
+            <column-instance column='[WC]' derivation='Avg' name='[avg:WC:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[anger]' derivation='None' name='[none:anger:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date_of_post]' derivation='Month-Trunc' name='[tmn:Date_of_post:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.10xrk031hb1yg111jq8760r18tz9].[tmn:Date_of_post:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xrk031hb1yg111jq8760r18tz9].[avg:WC:qk]</rows>
+        <cols>([federated.10xrk031hb1yg111jq8760r18tz9].[none:anger:nk] / [federated.10xrk031hb1yg111jq8760r18tz9].[tmn:Date_of_post:ok])</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.10xrk031hb1yg111jq8760r18tz9].[tmn:Date_of_post:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10xrk031hb1yg111jq8760r18tz9].[none:anger:nk]</field>
+            <field>[federated.10xrk031hb1yg111jq8760r18tz9].[tmn:Date_of_post:ok]</field>
+            <field>[federated.10xrk031hb1yg111jq8760r18tz9].[yr:Date_of_post:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
